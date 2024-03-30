@@ -1,0 +1,48 @@
+.card {
+    background-color: white;
+    border-radius: 20px;
+    border: 5px solid white;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+}
+
+.card img {
+    object-fit: cover;
+    transition: all .3s;
+}
+
+.card:hover img {
+    filter: opacity(0.7);
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.78px;
+    transition: color .3s;
+}
+
+.card:hover .card-title {
+    color: var(--main-color);
+}
+
+.card-body {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.44px;
+}
+
+.card-text .euro {
+    font-weight: 700;
+}
+
+.card-footer {
+    margin-bottom: 5px;
+}
+
+.card-footer .fa-solid {
+    color: var(--main-color);
+}
+
+.card-footer .neutral-star {
+    color: var(--main-bg-color)
+}

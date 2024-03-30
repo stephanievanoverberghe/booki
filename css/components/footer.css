@@ -1,0 +1,51 @@
+/* ********* */
+/* FOOTER */
+
+.footer {
+    background-color: var(--main-bg-color);
+    padding: 20px;
+    display: flex;
+    gap: 35px;
+    width: 100%;
+}
+
+.footer span {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.13px;
+}
+
+.category {
+    width: 33.33%;
+}
+
+.footer ul {
+    margin: 15px 0;
+}
+
+.footer ul li {
+    margin-bottom: 15px;
+}
+
+.footer a {
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: var(--main-color);
+}
+
+/* Small device */
+
+@media only screen and (max-width: 768px) {
+    .footer {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .category {
+        width: 100%;
+    }
+}
