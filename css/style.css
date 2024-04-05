@@ -301,6 +301,10 @@ li {
         display: block;
     }
 
+    .filters-btns {
+        padding: 20px 0;
+    }
+
     /* Accommodation and popular */
 
     .accommodation-and-popular {
@@ -396,7 +400,6 @@ li {
     }
 
     .filters-btns {
-        padding: 20px 0;
         flex-wrap: wrap;
         width: 100%;
     }

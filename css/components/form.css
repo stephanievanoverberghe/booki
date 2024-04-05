@@ -52,13 +52,14 @@
     color: black;
 }
 
-.form-btn-mobile {
+.form-btn .form-btn-mobile {
     display: none;
 }
 
-.form-btn-desktop {
+.form-btn .form-btn-desktop {
     display: block;
 }
+
 
 /* Small device */
 
@@ -81,11 +82,11 @@
         transition: all .3s;
     }
 
-    .form-btn-desktop {
+    .form-btn .form-btn-desktop {
         display: none;
     }
 
-    .form-btn-mobile {
+    .form-btn .form-btn-mobile {
         display: block;
     }
 
