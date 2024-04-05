@@ -404,6 +404,7 @@ li {
     .filters-btn {
         min-width: 47%;
         font-size: 14px;
+        flex: 1;
     }
 
     /* Accommodation */
